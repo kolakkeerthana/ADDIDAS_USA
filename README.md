@@ -1,6 +1,6 @@
 # 🏷️ Adidas USA Product Data Analysis
 <img width="1430" alt="image" src="https://github.com/user-attachments/assets/c0b337b3-ac88-4f99-bc6c-a3b7784f716d" />
-Image : Addidas_USA website 
+Image : Adidas_USA website 
 
 
 ## 📌 Introduction
