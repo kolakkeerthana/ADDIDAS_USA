@@ -12,13 +12,7 @@ Our objective is to clean, analyze, and visualize the data to uncover insights a
 1. Column Review & Removal
 Inspected all columns for relevance.
 
-Removed:
-
-Currency: All values are in USD.
-
-URL: Not needed for our analysis.
-
-Crawled_at: Timestamp irrelevant to business context.
+Removed: Currency: All values are in USD, URL: Not needed for our analysis, Crawled_at: Timestamp irrelevant to business context.
 
 ### 2. Data Type Conversion
 Converted selling_price from text to numeric format to enable accurate calculations.
