@@ -9,7 +9,7 @@ This project explores a dataset sourced from Kaggle containing product listings 
 Our objective is to clean, analyze, and visualize the data to uncover insights about product distribution, pricing, customer preferences, and more. This analysis serves as a foundational step toward building a dashboard for business insights.
 
 ## 🧹 Data Cleaning & Preparation
-1. Column Review & Removal
+### 1. Column Review & Removal
 Inspected all columns for relevance.
 
 Removed: Currency: All values are in USD, URL: Not needed for our analysis, Crawled_at: Timestamp irrelevant to business context.
@@ -18,12 +18,9 @@ Removed: Currency: All values are in USD, URL: Not needed for our analysis, Craw
 Converted selling_price from text to numeric format to enable accurate calculations.
 
 ### 3. Discount Calculation
-In the absence of an explicit discount column, we assumed:
+In the absence of an explicit discount column, we used: 
+=IF(OR(ISBLANK(F3), F3=0), 0, (F3-D3)/F3) assuming F3 as original_price and D3 as selling_price
 
-matlab
-Copy
-Edit
-discount % = ((MRP - Selling Price) / MRP) * 100
 ### 4. Standardizing Color Values
 Identified duplicate entries due to inconsistent naming (e.g., Multi color, MultiColor, and Multi).
 
@@ -32,9 +29,7 @@ Used Advanced Find & Replace to standardize all values to Multi.
 
 ### 5. Category Subdivision
 The breadcrumbs column contained category hierarchies (e.g., Men/Clothing).
-
 Used Excel's TEXTSPLIT function to extract the top-level category:
-
 excel
 Copy
 Edit
