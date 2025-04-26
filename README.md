@@ -93,13 +93,6 @@ Review vs Rating Chart
 
 Top-Rated Products
 
-### Filters / Slicers:
-
-Category
-
-Color
-
-Discount %
 
 ### Business Insights:
 
@@ -110,3 +103,6 @@ Promote top-rated products with strong reviews
 Standardize color naming for consistent UX
 
 Adjust pricing strategies based on discount analysis
+
+<img width="948" alt="Screenshot 2025-04-25 at 11 59 58 PM" src="https://github.com/user-attachments/assets/a50f1acb-54a5-441d-a062-4fbcd4583bdc" />
+
